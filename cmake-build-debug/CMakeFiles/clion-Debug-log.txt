@@ -1,0 +1,13 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/sehyun/CLionProjects/demo -B /Users/sehyun/CLionProjects/demo/cmake-build-debug
+CMake Deprecation Warning at cmake-build-debug/_deps/json-src/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using the multi-header code from /Users/sehyun/CLionProjects/demo/cmake-build-debug/_deps/json-src/include/
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/sehyun/CLionProjects/demo/cmake-build-debug
